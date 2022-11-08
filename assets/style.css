@@ -1,0 +1,549 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    height:12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,red);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,white);
+}
+
+.navbar{
+    width:100%;
+    height:12vh;
+}
+
+.nav{
+    width: 95%;
+    height:12vh;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1{
+    width:15%;
+    height: auto;
+}
+
+.button{
+    width:7%;
+    height:6vh;
+    background-color: red;
+    border: none;
+    border-radius: 10px;   
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.red:hover{
+    color: red;
+    transition:0.5s;
+}
+
+.white:hover{
+    background-color: white;
+    transition:0.5s;
+}
+
+
+.img{
+    background-image: url(img/AZ-en-20221031-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(47, 47, 47);
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-size:10vh;
+    padding-top: 8%;
+}
+
+.text1{
+    padding-top:1%;
+    text-align: center;
+    color: white;
+    font-size:4vh;
+}
+
+.text2{
+    padding-top:2.5%;
+    text-align: center;
+    color: white;
+    font-size:3vh;
+}
+
+.input{
+    margin-top:2%;
+    margin-left:1%;
+    width:350%;
+    height: 10vh;
+    padding-left:1%;
+}
+
+.button1{
+    width:17%;
+    height:10vh;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size:4vh;
+    position: relative;
+    position: absolute;
+    top:71.6%;
+    right:22.5%;
+    cursor: pointer;
+}
+
+.main1{
+    margin-top:0.5%;
+    width:100%;
+    height:50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div{
+margin-left:13%;
+}
+.color{
+    color: white;
+}
+
+.h2{
+    font-size:7vh;
+}
+
+.h3{
+    padding-top:3%;
+    font-size:3vh;
+}
+
+.tv{
+    width:31%;
+    height:auto;
+    margin-right:13%;
+}
+
+.main2{
+    margin-top:0.5%;
+    width:100%;
+    height:60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile{
+    width:31%;
+    height:auto;
+    margin-left:8%;
+}
+
+
+.div1{
+    margin-right:13%;
+}
+
+.backg{
+    width:24%;
+    height:15vh;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius:10px;
+    position: relative;
+    position: absolute;
+    right:64%;
+    top:188vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.st{
+    width:15%;
+    height: auto;
+    margin-left:4%;
+}
+
+.icon{
+    width:18%;
+    height: auto;
+}
+
+.ul{
+    margin-right:15%;
+}
+
+.li{
+    list-style: none;
+}
+
+.blue{
+    color: #004e9c;
+}
+
+
+.main3{
+    margin-top:0.5%;
+    width:100%;
+    height:70vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tv1{
+    width:36%;
+    height:auto;
+    margin-right:13%;
+}
+
+.main4{
+    margin-top:0.5%;
+    width:100%;
+    height:70vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main5{
+    margin-top:0.5%;
+    width:100%;
+    height:150vh;
+    background-color: black;
+}
+
+.text3{
+    text-align: center;
+    color: white;
+    padding-top:7%;
+    font-size:7vh;
+    margin-bottom:3%;
+}
+
+.netflix{
+    width:55%;
+    height:10vh;
+    margin:0 auto;
+    background-color:#303030;
+}
+
+.text4{
+    padding-top:2%;
+    padding-left:3%;
+    color: white;
+    font-size:4vh;
+}
+
+.span{
+    float: right;
+    padding-right:2.5%;
+    padding-top:0.4%;
+    cursor: pointer;
+}
+
+.cursor:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.text5{
+    text-align: center;
+    color: white;
+    padding-top:5%;
+    font-size:3vh;
+}
+
+.button2{
+    width:17%;
+    height:10vh;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size:4vh;
+    position: relative;
+    position: absolute;
+    top:487.8%;
+    right:22.5%;
+    cursor: pointer;
+}
+
+.input{
+    margin-top:2%;
+    margin-left:22.5%;
+    width:38%;
+    height: 10vh;
+    padding-left:1%;
+}
+
+.btn:hover{
+    background-color:rgb(0, 0, 0);
+    color: red;
+    transition: 0.5s;
+}
+
+
+.main6{
+    margin-top:0.5%;
+    width:100%;
+    height:70vh;
+    background-color: black;
+}
+
+.div2{
+    padding-top:15vh;
+    width:70%;
+    height:100%;
+    margin:0 auto;
+}
+
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.a1{
+    text-decoration: none;
+    color:#4c4e5c;
+    font-size:3vh;
+}
+
+.a2{
+    text-decoration: none;
+    color:#4c4e5c;
+    font-size:2vh;
+}
+
+.ul1{
+    padding-top:5%;
+}
+
+.ul2{
+    padding-top:5%;
+}
+
+.ul3{
+    padding-top:1%;
+}
+
+.li1{
+list-style: none;
+color: #4c4e5c;
+margin-top:1%;
+}
+
+.p{
+    padding-top:8%;
+    color: #303030;
+}
+
+.finish:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    color: red;
+}
+
+.backimg{
+    background-image: url(img/AZ-en-20221031-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgb(47, 47, 47);
+    background-size: cover;
+}
+
+.singup{
+width:30%;
+height:88vh;
+background-color: black;
+margin:0 auto;
+opacity: 0.7;
+border-radius: 10px;
+}
+
+.div4{
+    width:100%;
+    height:88vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding{
+    padding-top:15%;
+    padding-left:15%;
+    color: white;
+}
+
+.inp{
+    margin-top:7%;
+    width:70%;
+    height:7.5vh;
+    border-radius: 5px;
+    margin-left:15%;
+    background-color:#333333 ;
+    border:none;
+    padding-left: 3%;
+    font-size:2.5vh;
+}
+
+.inp1{
+    margin-top:3%;
+    width:70%;
+    height:7.5vh;
+    border-radius: 5px;
+    margin-left:15%;
+    background-color:#333333 ;
+    border: none;
+    padding-left:3%;
+    font-size:2.5vh;
+}
+
+
+.btn1{
+    cursor: pointer;
+    margin-top:5%;
+    width:70%;
+    height:7.5vh;
+    border-radius: 5px;
+    margin-left:15%;
+    background-color: red;
+    border: none;
+    font-size: 3vh;
+    color: white;
+}
+
+.cb{
+    margin-top:3%;
+    margin-right:68%;
+    cursor: pointer;
+}
+
+.p1{
+    position: relative;
+    bottom:2%;
+    left:18%;
+    font-size:1.5vh;
+}
+
+
+.span1{
+    margin-left:39%;
+    text-decoration: none;
+    color: white;
+}
+
+.a3{
+    color: white;
+    text-decoration: none;
+}
+
+.txt{
+    padding-top:8vh;
+    margin-left:15%;
+    color: #71736f;
+}
+
+.txt1{
+    font-size:2vh;
+    padding-top:1.5vh;
+    margin-left:15%;
+    color: #71736f;
+}
+
+
+.p2{
+    color: red;
+}
+
+.div5{
+    margin-top:5%;
+    width:100%;
+    height:40vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.div6{
+    padding-top:3%;
+    width:60%;
+    height:0%;
+    margin:0 auto;
+}
+
+.ul1{
+    padding-top:5%;
+}
+
+.ul2{
+    padding-top:5%;
+}
+
+.ul3{
+    padding-top:1%;
+}
+
+.li1{
+list-style: none;
+color: #4c4e5c;
+margin-top:1%;
+}
+
+.ul5{
+    padding-bottom:4%;
+}
+
+.ul6{
+    padding-bottom:3%;
+}
+
+.a5{
+    text-decoration: none;
+    color:#737373;
+    font-size:2vh;
+}
+
+.video{
+    width:22.5%;
+    height: 28vh;
+    position: absolute;
+    right:17.4%;
+    top: 111%;
+}
+
+.video2{
+    width:22.5%;
+    height: 28vh;
+    position: absolute;
+    right:20%;
+    top: 225%;
+}
+
